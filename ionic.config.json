@@ -1,0 +1,7 @@
+{
+  "name": "wrangler-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
