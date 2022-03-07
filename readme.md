@@ -1,10 +1,6 @@
 To create this repo:
 
 ```bash
-npx ionic start testapp
-cd testapp
-yarn
-yarn build   # verify this works
-yarn add -D wrangler@alpha
-yarn build   # now broken
+rm -rf node_modules && yarn && yarn build # Verify this works
+rm -rf node_modules && yarn add -D wrangler@0.0.0-046b17d && yarn build # this breaks
 ```

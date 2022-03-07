@@ -65,7 +65,8 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "3.4.3"
+    "@capacitor/cli": "3.4.3",
+    "wrangler": "^0.0.0-3d2ce01"
   },
   "description": "An Ionic project"
 }
